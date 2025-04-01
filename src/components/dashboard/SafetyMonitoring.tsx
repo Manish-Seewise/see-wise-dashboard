@@ -103,7 +103,7 @@ const SafetyMonitoring = () => {
               <span>Overall Compliance:</span>
               <span className="text-dashboard-green">86%</span>
             </div>
-            <Progress value={86} className="h-2 bg-dashboard-red/20" indicatorClassName="bg-dashboard-green" />
+            <Progress value={86} className="h-2 bg-dashboard-red/20" />
           </div>
         </CardContent>
       </Card>
